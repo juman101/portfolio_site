@@ -87,9 +87,21 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/Contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Contact
+              </Nav.Link>
+            </Nav.Item>
+
+
+
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/juman101/portfolio_site/tree/master"
                 target="_blank"
                 className="fork-btn-inner"
               >
